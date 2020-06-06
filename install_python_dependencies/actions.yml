@@ -1,0 +1,9 @@
+name: "Install Python Dependencies"
+description: "Create a virtual environment in the specified location"
+inputs:
+  requirements:
+    description: "Path to your project's requirements.txt."
+    required: false
+runs:
+  using: "node12"
+  main: "index.js"

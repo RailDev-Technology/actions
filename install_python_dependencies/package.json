@@ -1,0 +1,15 @@
+{
+  "name": "install_python_dependencies",
+  "version": "1.0.0",
+  "description": "GitHub action to install Python dependencies from Pip.",
+  "main": "index.js",
+  "repository": "https://github.com/RailDev-Technology/actions",
+  "author": "RailDev (https://raildev.tech)",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/exec": "^1.0.4",
+    "@actions/io": "^1.0.2"
+  }
+}
